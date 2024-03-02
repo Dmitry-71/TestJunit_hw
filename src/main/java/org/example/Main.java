@@ -8,7 +8,7 @@ public class Main {
         int b = calc.minus.apply(1, 1);
 
         try {
-            int c = calc.devide.apply(a, b);
+            int c = calc.divide.apply(a, b);
             calc.println.accept(c);
         } catch (ArithmeticException e) {
             System.out.println("Деление на 0!");
